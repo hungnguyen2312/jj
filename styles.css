@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;   
+}
+body {
+    font-family: sans-serif;
+}
+/* Phần title */
+.text-center{
+    text-align: center;
+}
+.large-12 {
+width: 100%;
+margin: 15px 0;
+}
+.page-title{
+ font-size: 1.15em;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+/* Phần title */
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.post-sidebar-large-3{
+    width: 21%;
+    padding: 0 30px;
+}
+.search-form {
+    margin: 20px 0;
+}
+.search-form input{
+    height: 38px;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    font-size: 0.97em;
+    padding: 0 0.75em;
+    border: 1px solid #ddd;
+    transition: color .3s, border .3s, background .3s, opacity .3s;
+    outline: none;
+    
+}
+.search-form button{
+    height: 38px;
+    border: 1px solid #ddd;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    background-color: #ffd907;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    min-width: 2.9em;
+    padding-left: .6em;
+    padding-right: .6em;
+    display: inline-block;
+    border-color: rgba(0,0,0,0.05);
+    color: #fff;
+    transform: translate(-5px, 2px);
+    
+}
+.search-form button i{
+    font-size: 1.5em;
+}
+.recent-post .widget-title{
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+.post-sidebar-large-3 ul{
+    margin-top: 15px;
+    padding: 15px;
+    list-style: none;
+    border: 1px solid #ddd;
+}
+.post-sidebar-large-3 ul li{
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+}
+.post-sidebar-large-3 ul li .flex-row{
+    display: flex;
+    justify-content: space-between;
+}
+.badge-post-date{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2) ), url(https://mauweb.monamedia.net/newyork/wp-content/uploads/2018/03/course-01-150x150.jpg); 
+    color:#fff; 
+    text-shadow:1px 1px 0px rgba(0,0,0,.5); 
+    border:0;
+    border-radius: 999px;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 50%;
+    width: 40px;
+    height: 40px;
+}
+ .badge-post-date{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ .badge-post-date .day{
+  font-size: 0.9rem;
+    font-weight: bold;
+}
+ .badge-post-date .week{
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+.post-sidebar-large-3 ul li .flex-row .flex-right{
+    padding: 0 15px;
+}
+.post-sidebar-large-3 ul li .flex-row .flex-right a{
+
+    color: #334862;
+}
+.large-9-post {
+    width: 78%;
+    padding: 0 30px;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap; /* Thêm dòng này để các post item xuống dòng khi không thể fit */
+}
+
+.large-9-post .post-item{
+    width: calc(33.33%-20px);
+    transition: color .3s, border .3s, background .3s, opacity .3s;
+    box-shadow: 0 0 2px rgba(0,0,0,0.1);
+    border: 1px solid #ddd;
+    position: relative;
+    max-height: 310px;
+    margin: 10px;
+}
+.large-9-post .post-item .post-image{
+    width: 100%;
+    height: 160px;
+}
+.badge-post-date.absolute{
+    background: #da1416;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 20px;
+    left: -8px;
+}
+.badge-post-date.absolute .day{
+    font-size: 1rem;
+}
+.badge-post-date.absolute .week{
+    font-size: 0.8rem;
+}
+.large-9-post .post-item .box-text{
+    width: 300px;
+    padding: 10px;
+}
+.large-9-post .post-item .box-text .box-title{
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: inline-block;
+}
+.large-9-post .post-item .box-text .is-devide {
+    display: inline-block;
+    width: 30px;
+    height: 3px;
+    border-radius: 1px;
+    background-color: #ddd;
+    margin: 5px 0;
+}
